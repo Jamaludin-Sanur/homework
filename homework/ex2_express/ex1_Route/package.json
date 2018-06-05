@@ -1,0 +1,14 @@
+{
+  "name": "ex1_simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "main.js"
+  },
+  "author": "js",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

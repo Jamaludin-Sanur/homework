@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Babel -->
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <!-- React -->
+        <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+
+        
+        <title>My First React File</title>
+    </head>
+    <body>
+    <script type="text/jsx">
+
+        class HelloWorld extends React.Component{
+            render = function() {
+                return (
+                    <div>
+                        <h1>Hello World</h1>
+                        <p>This is some text</p>
+                    </div>
+                    );
+            }
+        };
+
+        ReactDOM.render(<HelloWorld />, document.body);
+    </script>
+    </body>
+</html>
